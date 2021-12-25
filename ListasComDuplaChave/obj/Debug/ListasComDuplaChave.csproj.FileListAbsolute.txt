@@ -1,0 +1,8 @@
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\bin\Debug\ListasComDuplaChave.exe.config
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\bin\Debug\ListasComDuplaChave.exe
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\bin\Debug\ListasComDuplaChave.pdb
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\obj\Debug\ListasComDuplaChave.csprojResolveAssemblyReference.cache
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\obj\Debug\ListasComDuplaChave.exe
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\obj\Debug\ListasComDuplaChave.pdb
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\obj\Debug\ListasComDuplaChave.MainForm.resources
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\ListaComDuplaChave\ListasComDuplaChave\ListasComDuplaChave\obj\Debug\ListasComDuplaChave.csproj.GenerateResource.Cache
