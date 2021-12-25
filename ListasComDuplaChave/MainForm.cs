@@ -33,9 +33,6 @@ namespace ListasComDuplaChave
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		void Inserir(object sender, EventArgs e)
-		{
-		}
 		void ExecClick(object sender, EventArgs e)
 		{
 			if(this.caixa.Text == "Inserir")
@@ -67,6 +64,23 @@ namespace ListasComDuplaChave
 			{
 				this.txtNome.Text = "Listar por Nome";
 			}
+			if(this.caixa.Text == "Gravar em disco")
+			{
+	 	           ListaComDuplaChave<Info>.GravarDados(lista,"teste.txt");
+	 			   	
+			}
+			if(this.caixa.Text == "Ler do disco")
+			{
+					try {	
+	 	                lista = ListaComDuplaChave<Info>.LerDados("teste.txt");
+	 	                MessageBox.Show("" +lista.Count, "ATENÇÃO", MessageBoxButtons.OK);
+	 	               }
+	 	           catch(Exception info)
+	 	               {
+  		                lista = new ListaComDuplaChave<Info>();
+  		                MessageBox.Show("Vazia", "ALERTA", MessageBoxButtons.OK);
+	 	               }
+			}
 			if(this.caixa.Text == "Remover")
 			{
 				this.Remove();
@@ -95,12 +109,6 @@ namespace ListasComDuplaChave
 			//string.TryParse(this.txtID.Text, out obs);
 			obs = "ALguma coisa";
 			Info dado = new Info(id, nome, data, obs);
-			string saida;
-			if(lista.Find(dado, out saida))
-			{
-				MessageBox.Show("Aluno já inserido", "ERRO...", MessageBoxButtons.OK);
-				return;
-			}
 			lista.Add(dado);
 			MessageBox.Show("Aluno inserido com sucesso", "Sucesso...", MessageBoxButtons.OK);
 			this.txtID.Clear();

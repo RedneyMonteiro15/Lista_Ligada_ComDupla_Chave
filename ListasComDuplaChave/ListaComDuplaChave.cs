@@ -7,6 +7,8 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace lista
 {
@@ -90,7 +92,7 @@ namespace lista
 			{
 				aux = aux.Next;
 			}
-			if(aux != null)
+			if(aux != null && aux.info.CompareTo(info)==0)
 			{
 				saida = aux.info.ToString();
 				return true;
@@ -145,6 +147,26 @@ namespace lista
 				return "";
 			}
 			return aux.info.ToString() + "\n" + RetornarID(aux.Next);
+		}
+		
+		public static void GravarDados(ListaComDuplaChave<T> lista, string nameFile)
+		{
+	  	 BinaryFormatter formatador = new BinaryFormatter();
+	  	 FileStream file = new FileStream(nameFile, FileMode.CreateNew);
+	  	 formatador.Serialize(file, lista);
+	  	 file.Close();	  		
+	    }
+
+	  // lê os dados previamente guardados em disco para uma nova lista
+	  // pode gerar uma exception que é propagada para quem chamou este método
+      public static ListaComDuplaChave<T> LerDados(string nameFile)
+		{
+      	ListaComDuplaChave<T> lista = new ListaComDuplaChave<T>();
+	  	BinaryFormatter format = new BinaryFormatter();
+	    FileStream file= new FileStream(nameFile, FileMode.Open);
+	    lista = (ListaComDuplaChave<T>)format.Deserialize(file);
+	    file.Close();
+	    return lista;
 		}
 			
 	}
