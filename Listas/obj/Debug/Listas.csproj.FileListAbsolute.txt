@@ -1,0 +1,6 @@
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\bin\Debug\Listas.exe.config
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\bin\Debug\Listas.exe
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\bin\Debug\Listas.pdb
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\obj\Debug\Listas.csprojResolveAssemblyReference.cache
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\obj\Debug\Listas.exe
+C:\Users\TANIA\Desktop\documentos\programacao\Nova pasta\atividades\Lista duplamente ligada com chave dupla\Listas\Listas\obj\Debug\Listas.pdb
